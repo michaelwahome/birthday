@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Cindy</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffc7dd;
+      font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: #ffe9f3;
+      width: 90%;
+      max-width: 70%;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      border: 3px dashed #ff9ecb;
+      position: relative;
+      overflow: hidden;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);} 
+      to {opacity: 1; transform: translateY(0);} 
+    }
+
+    .scrap-piece {
+      position: absolute;
+      width: 120px;
+      height: 60px;
+      background: #ffd1e8;
+      transform: rotate(-10deg);
+      border-radius: 10px;
+      opacity: 0.5;
+      top: -20px;
+      left: -20px;
+    }
+
+    .scrap-piece2 {
+      position: absolute;
+      width: 140px;
+      height: 70px;
+      background: #ffaad1;
+      transform: rotate(12deg);
+      border-radius: 10px;
+      opacity: 0.5;
+      bottom: -25px;
+      right: -25px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #d14b84;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #b03d71;
+    }
+
+    .note {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      border: 2px dotted #ff93c7;
+      margin-top: 20px;
+      transform: rotate(-1deg);
+    }
+
+    .songs-container{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      gap: 15px; 
+    }
+
+    
+    .birthday-song {
+      text-decoration: none;      
+      background-color: #ff93c7; 
+      color: white;            
+      padding: 12px 20px;         
+      border-radius: 12px;        
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .birthday-song:hover {
+      background-color: #ff6ba1;  
+      transform: translateY(-2px); 
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="scrap-piece"></div>
+    <div class="scrap-piece2"></div>
+
+    <h1>Happy Birthday, Cindy! 🎀</h1>
+    <p>And happy belated national princess day Cinderella💗</p>
+
+    <div class="note">
+      <p>I can't believe it's your birthday already!! As my mum once said, oh no, you have aged. </p>
+      <p> I'm so grateful every single day that you let yourself get dragged out to Masshouse in Dec.
+        
+        Thank you for giving me the time of day (night?) when we met, and continuing to make me happy every day afterwards, for the consideration and care you've shown, for the growth you've helped me bring about in my life (in-progress), and for helping me stay grounded even when I'm losing my mind over work.
+
+        You are the smartest, kindest, most vision-oriented person I have ever met, sexy and sweet, funny and thoughtful, and I hope I get the privilege of continuing to experience you in all of your lovely youness until death do us part.
+
+      </p>
+      <p>I love you, Wahome 💕</p>
+
+      <p>PS: Come back home I miss you</p>
+
+      <p>PPS: Nap dates are better than spa dates</p>
+    </div>
+
+    <div class="songs">
+      <p style="color:#a64b79;">I couldn't decide on one so choose a birthday song down here ✨</p>
+      <div class="songs-container">
+        <a class="birthday-song" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">😉</a>
+        <a class="birthday-song" target="_blank" href="https://www.youtube.com/watch?v=wvVeZp3IZsY">🙂</a>
+        <a class="birthday-song" target="_blank" href="https://www.youtube.com/watch?v=_IzIGKqox18">😊</a>
+        <a class="birthday-song" target="_blank" href="https://www.youtube.com/watch?v=O1puRnV6gwE">💞</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
